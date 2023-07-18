@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>chris teper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="uad.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student Informatic</p>
+                <h1>Hi, I'm<span>Chris</span><br/> Mahasiswa UAD</h1>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="fo.jpg"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello, my name is Chris Teper Ferdiyanto, often called Chris. I am an informatics student at a university in Yogyakarta, AHMAD DAHLAN UNIVERSITY, who is just taking his second semester. For now, I am learning C++, PHP, HTML, CSS, and JavaScript programming. from the time I studied programming I often had problems in terms of errors or lack of ideas. Here I learned from the very basics because I crossed majors when I entered college and thank God I was able to follow it well.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Editing Lr</span><br/>editing foto perpaduan warna yang cocok</li>
+                            <li><span>web Development</span><br/>Designing web/app interface</li>
+                            <li><span>HTML</span><br/>membuat web</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019-2022</span><br/>Organisasi Intera Sekolah</li>
+                            <li><span>2019-2020</span><br/>Forum Osis Banyumas</li>
+                            <li><span>2019-2022</span><br/>Paskibra</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2022</span><br/>C++</li>
+                            <li><span>2019-2022</span><br/>UI/UX Design</li>
+                            <li><span>2019-2022</span><br/>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>C++</h2>
+                    <p>
+                        C++ adalah bahasa pemrograman komputer yang dibuat oleh Bjarne Stroustrup, yang merupakan perkembangan dari bahasa C yang dikembangkan di Bell Labs. Pada awal tahun 1970-an, bahasa ini merupakan peningkatan dari bahasa sebelumnya, yaitu B.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        UI Designer memiliki tugas menentukan tampilan aplikasi dan/atau situs. Sementara UX Designer menentukan bagaimana aplikasi dan/atau situs beroperasi dengan mudah.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>JavaScript</h2>
+                    <p>
+                        JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis yang populer di internet dan dapat berjalan di berbagai penjelajah web populer. JavaScript dapat digunakan untuk membuat interaksi interaktif pada halaman web.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">my projek</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="KALKULATOR.png"/>
+                    <div class="layer">
+                        <h3>Kalkulator</h3>
+                        <p>
+                            Mesin hitung atau kalkulator adalah alat untuk menghitung dari perhitungan sederhana seperti penjumlahan, pengurangan, perkalian dan pembagian sampai kepada kalkulator ilmiah yang dapat menghitung rumus matematika tertentu.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-form-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="LAUNDRY.png"/>
+                    <div class="layer">
+                        <h3>laundry</h3>
+                        <p>
+                            web untuk pelanggan laundry
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-form-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="PORTOFOLIO.png"/>
+                    <div class="layer">
+                        <h3>portofolio</h3>
+                        <p>
+                            identitas diri
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-form-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="portofolio">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img src="gmail.png" alt="Gmail Logo"alt="Logo" class="small-logo"> 2200018392@webmail.uad.ac.id</p>
+                    <p><img src="telepon.png" alt="Logo" class="small-logo"> 085602406980</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/christeperferdiyanto571/TA-PWeb2023-I-2200018392-Chris-Teper-Ferdiyanto"><img src="github.png" alt="Logo" class="small-logo"></a>
+                        <a href="https://instagram.com/vawxy_z?igshid=OGQ5ZDc2ODk2ZA=="><img src="ig.png" alt="Logo" class="small-logo"></a>
+                        <a href="https://www.tiktok.com/@christep_er"><i class="fab fa-tiktok"><img src="tiktok.png" alt="Logo" class="small-logo"></a>
+                    </div>
+                    <a href="https://drive.google.com/drive/my-drive?hl=id" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form method="post" action="script.js" onsubmit="submitForm(event)">
+                        <input type="text" name="name" placeholder="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" required />
+                        <input type="text" name="nim" placeholder="Your NIM" required />
+                        <input type="text" name="prodi" placeholder="Your Study Program" required />
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <div id="thank-you-message" style="display: none;">
+                            Terima kasih! Pesan Anda telah berhasil dikirim.
+                        </div>
+                    </form>
+                </div>
+    </div>
+    <p class="text-center">Created by <a href="#">Chris Teper Ferdiyanto / 2200018392</a></p>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
